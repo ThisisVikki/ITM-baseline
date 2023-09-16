@@ -1,5 +1,9 @@
-# ITM-baseline
-A lightweight baseline for ITM
+# ITM-baseline: IRNet
+
+### Lightweight Improved Residual Network for Efficient Inverse Tone Mapping
+[paper](https://arxiv.org/abs/2307.03998)
+
+Liqi Xue, Tianyi Xu, Yongbao Song, Yan Liu, Lei Zhang, Xiantong Zhen, and Jun Xu
 
 1. Net arcitecture:
 With **FDDB1** and with **FDDB2**

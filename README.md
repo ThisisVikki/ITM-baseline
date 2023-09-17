@@ -1,14 +1,11 @@
 # ITM-baseline: IRNet
 
 ### Lightweight Improved Residual Network for Efficient Inverse Tone Mapping
-[paper](https://arxiv.org/abs/2307.03998)
+[paper link](https://arxiv.org/abs/2307.03998)
 
-Liqi Xue, Tianyi Xu, Yongbao Song, Yan Liu, Lei Zhang, Xiantong Zhen, and Jun Xu
+![image](https://github.com/ThisisVikki/ITM-baseline/blob/main/figure/Net%26block_structure_newcrop.png)
+**Figure:** *Architecture of the proposed Improved Residual Network (IRNet) and the Improved Residual Block (IRB)*
 
-1. Net arcitecture:
-With **FDDB1** and with **FDDB2**
-
-<img src="https://github.com/ThisisVikki/ITM-baseline/blob/main/write_article/Network_changed_FDDB1.png" width="200" height="470">.          .<img src="https://github.com/ThisisVikki/ITM-baseline/blob/main/write_article/Network_changed%20(1).png" width="150" height="470">
-
-2. **FDDB** Module:
-<img src="https://github.com/ThisisVikki/ITM-baseline/blob/main/write_article/FDDB.jpg" width="200" height="453">
+## Getting Started
+### Dataset
+We use the [HDRTV1K](https://github.com/chxy95/HDRTVNet#configuration) dataset for training, and the test set of [HDRTV1K](https://github.com/chxy95/HDRTVNet#configuration), the test set of [Deep SR-ITM](https://github.com/sooyekim/Deep-SR-ITM), and our ITM-4K test dataset for testing. The ITM-4K test dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1AJqz2ILR9XD_UO4lFklBOoKpj4ZOrRmo/view?usp=drive_link) and [Baidu NetDisk](https://pan.baidu.com/s/1KK9s6DU-ZAKIEydMnFfClQ) (access code: t7iy). It contains 160 pairs of SDR and HDR images of size $3840\times2160\times3$.

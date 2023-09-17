@@ -1,0 +1,8 @@
+lpips
+numpy
+opencv_python
+pandas
+scikit_image
+tensorboardX
+torch==1.11.0
+yacs

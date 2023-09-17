@@ -34,7 +34,7 @@ The test result will be saved to `./results`.
 **The pretrained model will be released soon.**
 
 ### How to Train
-The training settings can be found at `./experiments/FDADN_FDRB_COSINE.yaml`, please check the settings and make sure `TRAIN_DATAROOT_GT`, `TRAIN_DATAROOT_LQ`, `VALID_DATAROOT_GT` and `VALID_DATAROOT_LQ` are in the right paths.
+The training settings can be found at `./experiments/IRNet_COSINE.yaml`, please check the settings and make sure `TRAIN_DATAROOT_GT`, `TRAIN_DATAROOT_LQ`, `VALID_DATAROOT_GT` and `VALID_DATAROOT_LQ` are in the right paths.
 
 Then run the code:
 ```

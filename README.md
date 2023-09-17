@@ -1,7 +1,7 @@
 # IRNet
 
 ### Lightweight Improved Residual Network for Efficient Inverse Tone Mapping
-[paper link](https://arxiv.org/abs/2307.03998)
+[[paper]](https://arxiv.org/abs/2307.03998)
 
 ![image](https://github.com/ThisisVikki/ITM-baseline/blob/main/figure/Net%26block_structure_newcrop.png)
 **Figure:** *Architecture of the proposed Improved Residual Network (IRNet) and the Improved Residual Block (IRB)*

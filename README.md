@@ -41,6 +41,10 @@ Then run the code:
 python train.py --model [model name] --channels [model_channels]
 ```
 ## Results
+#### Comparison of qualitive results
+![image](https://github.com/ThisisVikki/ITM-baseline/blob/main/figure/results.png)
+#### Comparison of visual quality
+![image](https://github.com/ThisisVikki/ITM-baseline/blob/main/figure/compare_all_github.png)
 
 
 ## References

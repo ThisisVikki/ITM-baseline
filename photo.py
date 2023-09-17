@@ -27,14 +27,14 @@ def traverse_under_folder(folder_root):
 
 	return folder_leaf, folder_branch, file_leaf
 
+testdata_path = './HDRTV_test/test_sdr/'
+_,_,fil = traverse_under_folder(testdata_path)
+fil.sort()
 
-# _,_,fil = traverse_under_folder('./HDRTV_test/test_sdr/')
-# fil.sort()
 
-
-path = "./pretrained_models/SRITM_IRNet-2_True.pth"
+model_path = "./pretrained_models/SRITM_IRNet-2_True.pth"
 model = IRNet_2(upscale=4)
-model.load_state_dict(torch.load(path,map_location=torch.device('cpu')))
+model.load_state_dict(torch.load(model_path,map_location=torch.device('cpu')))
 model = model.eval()
 
 

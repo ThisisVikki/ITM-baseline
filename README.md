@@ -40,6 +40,8 @@ Then run the code:
 ```
 python train.py --model [model name] --channels [model_channels]
 ```
+## Results
+
 
 ## References
 If our work is helpful for you, please cite our paper:
